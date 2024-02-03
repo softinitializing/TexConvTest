@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TextConverter\TexConverter.csproj" />
+    <ProjectReference Include="..\TextureConverter\TexConverter.csproj" />
   </ItemGroup>
 
 </Project>

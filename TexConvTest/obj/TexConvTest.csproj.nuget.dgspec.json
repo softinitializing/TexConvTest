@@ -4,16 +4,16 @@
     "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\TexConvTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj",
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj",
         "projectName": "DirectXTexNetImpl",
-        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj",
         "frameworks": {
           "native": {
             "projectReferences": {
-              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj": {
-                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj"
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj"
               }
             }
           }
@@ -23,14 +23,14 @@
         "native": {}
       }
     },
-    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj": {
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNet\\DirectXTexNet.csproj": {
       "version": "1.0.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNet\\DirectXTexNet.csproj",
         "projectName": "DirectXTexNet",
-        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNet\\DirectXTexNet.csproj",
         "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\obj\\",
+        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -84,11 +84,11 @@
         }
       }
     },
-    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj": {
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj",
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj",
         "projectName": "DirectXTex",
-        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj",
         "frameworks": {
           "native": {
             "projectReferences": {}
@@ -129,8 +129,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj": {
-                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj"
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj": {
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj",
         "projectName": "TexConverter",
-        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj",
         "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\obj\\",
+        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -203,11 +203,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
-                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj"
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj"
               },
-              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj": {
-                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj"
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNet\\DirectXTexNet.csproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\DirecXTex\\DirectXTexNet\\DirectXTexNet.csproj"
               }
             }
           }

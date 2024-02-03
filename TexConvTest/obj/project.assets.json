@@ -102,23 +102,23 @@
     },
     "DirectXTex/1.0.0": {
       "type": "project",
-      "path": "../TexConverter/DirectXTex/DirectXTex/DirectXTex_Desktop_2019.vcxproj",
-      "msbuildProject": "../TexConverter/DirectXTex/DirectXTex/DirectXTex_Desktop_2019.vcxproj"
+      "path": "../DirecXTex/DirectXTex/DirectXTex/DirectXTex_Desktop_2019.vcxproj",
+      "msbuildProject": "../DirecXTex/DirectXTex/DirectXTex/DirectXTex_Desktop_2019.vcxproj"
     },
     "DirectXTexNet/1.0.3": {
       "type": "project",
-      "path": "../TexConverter/DirectXTexNet/DirectXTexNet.csproj",
-      "msbuildProject": "../TexConverter/DirectXTexNet/DirectXTexNet.csproj"
+      "path": "../DirecXTex/DirectXTexNet/DirectXTexNet.csproj",
+      "msbuildProject": "../DirecXTex/DirectXTexNet/DirectXTexNet.csproj"
     },
     "DirectXTexNetImpl/1.0.0": {
       "type": "project",
-      "path": "../TexConverter/DirectXTexNetImpl/DirectXTexNetImpl.vcxproj",
-      "msbuildProject": "../TexConverter/DirectXTexNetImpl/DirectXTexNetImpl.vcxproj"
+      "path": "../DirecXTex/DirectXTexNetImpl/DirectXTexNetImpl.vcxproj",
+      "msbuildProject": "../DirecXTex/DirectXTexNetImpl/DirectXTexNetImpl.vcxproj"
     },
     "TexConverter/1.0.0": {
       "type": "project",
-      "path": "../TextConverter/TexConverter.csproj",
-      "msbuildProject": "../TextConverter/TexConverter.csproj"
+      "path": "../TextureConverter/TexConverter.csproj",
+      "msbuildProject": "../TextureConverter/TexConverter.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -162,8 +162,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj": {
-              "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj"
+            "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj": {
+              "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextureConverter\\TexConverter.csproj"
             }
           }
         }
