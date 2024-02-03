@@ -1,0 +1,71 @@
+﻿<Window
+    x:Class="TexConvTest.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TexConvTest"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="600"
+    Height="350"
+    d:DataContext="{d:DesignInstance Type=local:ViewModel}"
+    mc:Ignorable="d">
+    <Grid Background="#FF4A4A4A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="60" />
+            <ColumnDefinition Width="10" />
+
+        </Grid.ColumnDefinitions>
+        <ComboBox
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            DisplayMemberPath="Name"
+            ItemsSource="{Binding Profiles}"
+            SelectedItem="{Binding Profile}" />
+
+        <TextBlock
+            Grid.Row="3"
+            Grid.Column="1"
+            Text="{Binding CurrentFile}" />
+        <Button
+            x:Name="GetImageFile"
+            Grid.Row="3"
+            Grid.Column="2"
+            Command="{Binding GetSourceImageCommand, Mode=OneWay}"
+            Content="....." />
+        <TextBox
+            x:Name="DistName"
+            Grid.Row="5"
+            Grid.Column="1"
+            Text="{Binding CurrentDist}" />
+        <Button
+            x:Name="ConvertFile"
+            Grid.Row="5"
+            Grid.Column="2"
+            Command="{Binding StartConversionCommand, Mode=OneWay}"
+            Content="Convert " />
+        <TextBlock
+            x:Name="TimeDisplay"
+            Grid.Row="7"
+            Grid.Column="1"
+            Height="30"
+            Margin="50"
+            Background="#FFBBBBBB"
+            FontFamily="Bahnschrift SemiCondensed"
+            FontSize="24"
+            TextAlignment="Center" />
+    </Grid>
+</Window>

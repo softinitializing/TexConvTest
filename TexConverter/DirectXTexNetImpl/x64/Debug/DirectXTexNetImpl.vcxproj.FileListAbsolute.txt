@@ -1,0 +1,5 @@
+C:\Users\Ahmed\source\repos\TexConvTest\x64\Debug\Ijwhost.dll
+C:\Users\Ahmed\source\repos\TexConvTest\x64\Debug\DirectXTexNetImpl.deps.json
+C:\Users\Ahmed\source\repos\TexConvTest\x64\Debug\DirectXTexNetImpl.runtimeconfig.json
+C:\Users\Ahmed\source\repos\TexConvTest\TexConverter\DirectXTexNetImpl\x64\Debug\DirectXTexNetImpl.vcxproj.AssemblyReference.cache
+C:\Users\Ahmed\source\repos\TexConvTest\TexConverter\DirectXTexNetImpl\x64\Debug\DirectXTexNetImpl.genruntimeconfig.cache

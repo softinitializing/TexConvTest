@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": "net5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    "net5.0": {
+      "DirectXTexNetImpl/1.0.0": {
+        "runtime": {
+          "DirectXTexNetImpl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DirectXTexNetImpl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

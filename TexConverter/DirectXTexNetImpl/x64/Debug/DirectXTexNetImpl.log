@@ -1,0 +1,7 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  DirectXTexNet.cpp
+  Generating Code...
+  .NETCoreApp,Version=v5.0.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DirectXTexNetImpl.vcxproj -> C:\Users\Ahmed\source\repos\TexConvTest\x64\Debug\DirectXTexNetImpl.dll

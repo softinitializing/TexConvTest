@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w+BP3JnX16yJiwG9fU1mIX8KPH+ub2aUhrbufwBfJFYJNF9B0IiJThuzvK3f7WowkjN5Jn0UdO3xAfqTzIlRLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\TexConvTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ahmed\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\Ahmed\\.nuget\\packages\\directxtexnet\\1.0.3\\directxtexnet.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

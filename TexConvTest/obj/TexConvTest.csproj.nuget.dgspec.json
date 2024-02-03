@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\TexConvTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj",
+        "projectName": "DirectXTexNetImpl",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj": {
+      "version": "1.0.3",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj",
+        "projectName": "DirectXTexNet",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj",
+        "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.1.41\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj",
+        "projectName": "DirectXTex",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTex\\DirectXTex\\DirectXTex_Desktop_2019.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\TexConvTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\TexConvTest.csproj",
+        "projectName": "TexConvTest",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\TexConvTest.csproj",
+        "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConvTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.1.41\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj",
+        "projectName": "TexConverter",
+        "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj",
+        "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.1.41\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj"
+              },
+              "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj": {
+                "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

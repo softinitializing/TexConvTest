@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "DirectXTex/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DirectXTex.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DirectXTex.dll": {}
+        }
+      },
+      "DirectXTexNet/1.0.3": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DirectXTexNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DirectXTexNet.dll": {}
+        }
+      },
+      "DirectXTexNetImpl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DirectXTex": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DirectXTexNetImpl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DirectXTexNetImpl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DirectXTex/1.0.0": {
+      "type": "project",
+      "path": "../TexConverter/DirectXTex/DirectXTex/DirectXTex_Desktop_2019.vcxproj",
+      "msbuildProject": "../TexConverter/DirectXTex/DirectXTex/DirectXTex_Desktop_2019.vcxproj"
+    },
+    "DirectXTexNet/1.0.3": {
+      "type": "project",
+      "path": "../TexConverter/DirectXTexNet/DirectXTexNet.csproj",
+      "msbuildProject": "../TexConverter/DirectXTexNet/DirectXTexNet.csproj"
+    },
+    "DirectXTexNetImpl/1.0.0": {
+      "type": "project",
+      "path": "../TexConverter/DirectXTexNetImpl/DirectXTexNetImpl.vcxproj",
+      "msbuildProject": "../TexConverter/DirectXTexNetImpl/DirectXTexNetImpl.vcxproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "DirectXTexNet >= 1.0.3",
+      "DirectXTexNetImpl >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ahmed\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.1.41\\ToolboxNuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj",
+      "projectName": "TexConverter",
+      "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\TexConverter.csproj",
+      "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TextConverter\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.1.41\\ToolboxNuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj": {
+              "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNetImpl\\DirectXTexNetImpl.vcxproj"
+            },
+            "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj": {
+              "projectPath": "C:\\Users\\Ahmed\\source\\repos\\TexConvTest\\TexConverter\\DirectXTexNet\\DirectXTexNet.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
