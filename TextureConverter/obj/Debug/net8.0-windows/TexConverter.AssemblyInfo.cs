@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TexConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72054cc94249941e787a37a23d9c1afa8d2c673e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TexConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TexConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

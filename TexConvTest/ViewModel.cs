@@ -94,16 +94,19 @@ namespace TexConvTest
         {
             StartConversion();
         }
-
+        TextureConverter converter;
         private async void StartConversion()
         {
             // Start the timer
             _stopwatch.Restart();
             _timer.Start();
-            
 
-            // Wait for 5 seconds
-            await TextureConverter.ConvertToDdsFileAsync(CurrentFile,CurrentDist,Profile);
+
+         
+            converter ??= new TextureConverter();
+
+            await converter.ConvertToDdsFileAsync(CurrentFile,CurrentDist,Profile);
+          
             // Stop the timer
             _timer.Stop();
             _stopwatch.Stop();

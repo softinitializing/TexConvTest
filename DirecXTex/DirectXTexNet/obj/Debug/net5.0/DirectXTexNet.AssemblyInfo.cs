@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2021 Dennis Gocke")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(".NET wrapper for DirectXTex")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+6fc3d2c8e540dcf7a996f07de3ef98db5c33e3c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DirectXTexNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DirectXTexNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
